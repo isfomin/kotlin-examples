@@ -1,2 +1,2 @@
 # kotlin-examples
-Руководство по языку Kotlin [https://kotlinlang.ru/]
+Руководство по языку Kotlin https://kotlinlang.ru/
