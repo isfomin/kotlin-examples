@@ -1,17 +1,28 @@
 import game.MagicWeapon
 import game.Player
 import game.Weapon
+import strings.getLastChar
+import strings.joinToString
 
 fun main() {
-//    val sumUser: String = readLine() ?: return
-//
-//    val sum: Int = sumUser.toInt()
-//
-//    val tax: Double = calcTax(sum)
-//
-//    println("For $sum tax is $tax")
-//
-//    println(calcChairs(12))
+    //demo1()
+    //demo2()
+    demo3()
+}
+
+fun demo1() {
+    val sumUser: String = readLine() ?: return
+    val sum: Int = sumUser.toInt()
+    val tax: Double = calcTax(sum)
+    println("For $sum tax is $tax")
+    println(calcChairs(12))
+}
+
+fun demo2() {
+    val a: String? = null
+    val b = (a?.length).toString()
+    println(b)
+
     demoWhen()
     println(getYearEra(2123))
     demoWhile()
@@ -27,6 +38,16 @@ fun main() {
 
     val w:Weapon = MagicWeapon(1, 1.0)
     println("damage = ${w.calcDamage()}")
+}
+
+fun demo3() {
+    println("kotlin".getLastChar())
+    val list = arrayListOf(1, 2, 3)
+    val list2 = listOf(5, 6, 7)
+    println(list)
+    println(list.javaClass)
+    println(list2.javaClass)
+    println(joinToString(list, separator = "; "))
 }
 
 /** Get year era */
