@@ -1,3 +1,4 @@
+import collections.executeSomeCode
 import game.MagicWeapon
 import game.Player
 import game.Weapon
@@ -7,7 +8,9 @@ import strings.joinToString
 fun main() {
     //demo1()
     //demo2()
-    demo3()
+    //demo3()
+    executeSomeCode()
+    objects.executeSomeCode()
 }
 
 fun demo1() {
