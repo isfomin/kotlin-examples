@@ -14,5 +14,5 @@ val xml = """
 """.trimIndent()
 
 fun executeSomeCode() {
-    println(xml)
+    //println(xml)
 }
